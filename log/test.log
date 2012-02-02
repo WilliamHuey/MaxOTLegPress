@@ -1,9 +1,515 @@
-  [1m[36m (39.0ms)[0m  [1mbegin transaction[0m
+  [1m[36m (2.4ms)[0m  [1mbegin transaction[0m
 Processing by PagesController#home as HTML
-  Rendered pages/home.html.erb within layouts/application (38.8ms)
-Completed 200 OK in 288ms (Views: 287.0ms | ActiveRecord: 0.0ms)
+  Rendered pages/home.html.erb within layouts/application (117.1ms)
+Completed 200 OK in 435ms (Views: 433.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.3ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+  Parameters: {"weight"=>"570"}
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.7ms)[0m  rollback transaction
+  [1m[36m (21.3ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (164.6ms)
+Completed 200 OK in 418ms (Views: 416.3ms | ActiveRecord: 0.0ms)
   [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+  Parameters: {"weight"=>"570"}
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (1.1ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (151.6ms)
+Completed 200 OK in 434ms (Views: 431.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+Completed 200 OK in 14ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+  Parameters: {"weight"=>"570"}
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (89.9ms)
+Completed 200 OK in 259ms (Views: 257.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
-Processing by PagesController#contact as HTML
-Completed 200 OK in 18ms (Views: 16.7ms | ActiveRecord: 0.0ms)
+Processing by PagesController#results as HTML
+  Parameters: {"weight"=>"570"}
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (2.2ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (92.6ms)
+Completed 200 OK in 278ms (Views: 274.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+  Parameters: {"weight"=>"570"}
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (1.1ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (201.8ms)
+Completed 200 OK in 430ms (Views: 426.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (16.4ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+Completed 200 OK in 6ms (Views: 4.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+  Parameters: {"weight"=>"570"}
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (2.5ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (197.8ms)
+Completed 200 OK in 433ms (Views: 429.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.9ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+Completed 200 OK in 6ms (Views: 4.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.6ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+  Parameters: {"weight"=>"570"}
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (1.1ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (151.1ms)
+Completed 200 OK in 448ms (Views: 444.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.8ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+Completed 200 OK in 8ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+  Parameters: {"weight"=>"570"}
+Completed 200 OK in 7ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (1.7ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (270.7ms)
+Completed 200 OK in 594ms (Views: 588.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.7ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.3ms)[0m  rollback transaction
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+  Parameters: {"weight"=>"570"}
+Completed 200 OK in 25ms (Views: 10.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.7ms)[0m  rollback transaction
+  [1m[36m (1.1ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+  Parameters: {"weight"=>"570"}
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (3.0ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (357.4ms)
+Completed 200 OK in 579ms (Views: 575.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (1.0ms)[0m  rollback transaction
+  [1m[36m (1.2ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+Completed 200 OK in 21ms (Views: 18.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+  Parameters: {"weight"=>"570"}
+Completed 200 OK in 9ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (1.6ms)[0m  rollback transaction
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+  Parameters: {"weight"=>"590"}
+Completed 200 OK in 10ms (Views: 8.1ms | ActiveRecord: 0.0ms)
   [1m[35m (0.4ms)[0m  rollback transaction
+  [1m[36m (7.4ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (195.5ms)
+Completed 200 OK in 407ms (Views: 401.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.7ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+Completed 200 OK in 24ms (Views: 21.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.3ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+  Parameters: {"weight"=>"570"}
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+  Parameters: {"weight"=>"570"}
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+  Parameters: {"weight"=>"590"}
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (1.4ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (216.5ms)
+Completed 200 OK in 511ms (Views: 507.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+Completed 200 OK in 6ms (Views: 3.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+  Parameters: {"weight"=>"570"}
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+  Parameters: {"weight"=>"570"}
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36m (1.3ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+  Parameters: {"weight"=>"590"}
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (13.1ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (235.8ms)
+Completed 200 OK in 468ms (Views: 464.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (1.1ms)[0m  rollback transaction
+  [1m[36m (0.7ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+Completed 200 OK in 8ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+  Parameters: {"weight"=>"570"}
+Completed 200 OK in 7ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+  Parameters: {"weight"=>"570"}
+Completed 200 OK in 20ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.4ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+  Parameters: {"weight"=>"590"}
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (1.3ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (195.5ms)
+Completed 200 OK in 403ms (Views: 396.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.7ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.7ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+  Parameters: {"weight"=>"570"}
+Completed 200 OK in 6ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+  Parameters: {"weight"=>"570"}
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+  Parameters: {"weight"=>"590"}
+Completed 200 OK in 18ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (1.4ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (243.1ms)
+Completed 200 OK in 534ms (Views: 494.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.8ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+Completed 200 OK in 7ms (Views: 5.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.7ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+  Parameters: {"weight"=>"570"}
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+  Parameters: {"weight"=>"570"}
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+  Parameters: {"weight"=>"590"}
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (2.3ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (82.9ms)
+Completed 200 OK in 456ms (Views: 446.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.8ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+Completed 200 OK in 31ms (Views: 19.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.7ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+  Parameters: {"weight"=>"570"}
+Completed 200 OK in 13ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.8ms)[0m  rollback transaction
+  [1m[36m (0.8ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+  Parameters: {"weight"=>"570"}
+Completed 200 OK in 16ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+  Parameters: {"weight"=>"590"}
+Completed 200 OK in 34ms (Views: 21.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (1.9ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (151.6ms)
+Completed 200 OK in 522ms (Views: 517.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.7ms)[0m  rollback transaction
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+Completed 200 OK in 15ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+  Parameters: {"weight"=>"570"}
+Completed 200 OK in 10ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+  Parameters: {"weight"=>"570"}
+Completed 200 OK in 17ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+  Parameters: {"weight"=>"590"}
+Completed 200 OK in 103ms (Views: 60.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36m (1.2ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (38.5ms)
+Completed 200 OK in 205ms (Views: 203.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+Completed 200 OK in 10ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+  Parameters: {"weight"=>"570"}
+Completed 200 OK in 9ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+  Parameters: {"weight"=>"570"}
+Completed 200 OK in 9ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+  Parameters: {"weight"=>"590"}
+Completed 200 OK in 12ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (2.2ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (51.9ms)
+Completed 200 OK in 535ms (Views: 532.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.8ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+Completed 200 OK in 13ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.4ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+  Parameters: {"weight"=>"570"}
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+  Parameters: {"weight"=>"570"}
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+  Parameters: {"weight"=>"590"}
+Completed 200 OK in 9ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.4ms)[0m  rollback transaction
+  [1m[36m (2.7ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (74.7ms)
+Completed 200 OK in 442ms (Views: 438.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.8ms)[0m  rollback transaction
+  [1m[36m (1.2ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+Completed 200 OK in 10ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.3ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+  Parameters: {"weight"=>"570"}
+Completed 200 OK in 9ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.7ms)[0m  rollback transaction
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+  Parameters: {"weight"=>"570"}
+Completed 200 OK in 9ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.6ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+  Parameters: {"weight"=>"590"}
+Completed 200 OK in 15ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.4ms)[0m  rollback transaction
+  [1m[36m (4.4ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (70.4ms)
+Completed 200 OK in 1332ms (Views: 1321.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (21.5ms)[0m  rollback transaction
+  [1m[36m (0.6ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+Completed 200 OK in 82ms (Views: 66.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.7ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+  Parameters: {"weight"=>"570"}
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.9ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+  Parameters: {"weight"=>"570"}
+Completed 200 OK in 8ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.3ms)[0m  rollback transaction
+  [1m[36m (0.6ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+  Parameters: {"weight"=>"590"}
+Completed 200 OK in 9ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.4ms)[0m  rollback transaction
+  [1m[36m (1.3ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (62.6ms)
+Completed 200 OK in 372ms (Views: 369.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (1.0ms)[0m  rollback transaction
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+Completed 200 OK in 14ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.4ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+  Parameters: {"weight"=>"570"}
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+  Parameters: {"weight"=>"570"}
+Completed 200 OK in 9ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.4ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+  Parameters: {"weight"=>"590"}
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (1.3ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (75.3ms)
+Completed 200 OK in 596ms (Views: 589.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.7ms)[0m  rollback transaction
+  [1m[36m (0.8ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+Completed 200 OK in 10ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (1.4ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+  Parameters: {"weight"=>"570"}
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+  Parameters: {"weight"=>"570"}
+Completed 200 OK in 20ms (Views: 16.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (1.9ms)[0m  rollback transaction
+  [1m[36m (0.8ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+  Parameters: {"weight"=>"590"}
+Completed 200 OK in 14ms (Views: 10.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (1.1ms)[0m  rollback transaction
+  [1m[36m (2.0ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (39.8ms)
+Completed 200 OK in 385ms (Views: 381.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36m (0.9ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+Completed 200 OK in 10ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+  Parameters: {"weight"=>"570"}
+Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.4ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+  Parameters: {"weight"=>"570"}
+Completed 200 OK in 8ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (1.1ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+  Parameters: {"weight"=>"590"}
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (2.7ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (51.5ms)
+Completed 200 OK in 470ms (Views: 465.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+Completed 200 OK in 18ms (Views: 11.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (1.0ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+  Parameters: {"weight"=>"570"}
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+  Parameters: {"weight"=>"570"}
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+  Parameters: {"weight"=>"590"}
+Completed 200 OK in 7ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Processing by PagesController#results as HTML
+  Parameters: {"weight"=>"590"}
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  rollback transaction

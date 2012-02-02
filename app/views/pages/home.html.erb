@@ -1,2 +1,6 @@
 <h1>MaxOT Leg Press</h1>
-<p>This is the homepage.</p>
+
+<%= form_tag :controller => 'pages', :action => 'results', :method => 'post' do %>
+    <%= text_field_tag(:weight) %>
+    <%= submit_tag('Calculate weights') %>
+<% end %>

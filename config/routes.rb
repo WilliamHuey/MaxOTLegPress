@@ -2,7 +2,7 @@ MaxOTLegPress::Application.routes.draw do
 
 
   get "pages/home"
+  post "pages/results"
 
-  get "pages/contact"
-
+  root :to => "pages#home"
 end
