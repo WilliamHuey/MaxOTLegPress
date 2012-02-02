@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e3d8c26-4281-48b5-914f-c2e118eda4b1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/pages_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/pages_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/weight.rb" afterPath="$PROJECT_DIR$/app/models/weight.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pages/results.html.erb" afterPath="$PROJECT_DIR$/app/views/pages/results.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/test.log" afterPath="$PROJECT_DIR$/log/test.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/controllers/pages_controller_spec.rb" afterPath="$PROJECT_DIR$/spec/controllers/pages_controller_spec.rb" />
     </list>
     <ignored path="MaxOTLegPress.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,19 +28,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pages_controller_spec.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="pages_controller_spec.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/controllers/pages_controller_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="0" selection-start="1212" selection-end="1212" vertical-scroll-proportion="0.0">
+            <state line="48" column="0" selection-start="1212" selection-end="1212" vertical-scroll-proportion="1.25">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pages_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="pages_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/pages_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="31" selection-start="499" selection-end="499" vertical-scroll-proportion="0.390625">
+            <state line="14" column="4" selection-start="535" selection-end="535" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -60,7 +58,7 @@
       <file leaf-file-name="weight.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/weight.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="19" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0">
+            <state line="29" column="17" selection-start="560" selection-end="560" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -69,7 +67,7 @@
       <file leaf-file-name="results.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/pages/results.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="24" selection-start="1224" selection-end="1224" vertical-scroll-proportion="0.0">
+            <state line="6" column="17" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -96,10 +94,10 @@
         <option value="$PROJECT_DIR$/app/views/pages/home.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/spec/controllers/pages_controller_spec.rb" />
-        <option value="$PROJECT_DIR$/app/models/weight.rb" />
         <option value="$PROJECT_DIR$/spec/models/weight_spec.rb" />
-        <option value="$PROJECT_DIR$/app/views/pages/results.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/pages_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/pages/results.html.erb" />
+        <option value="$PROJECT_DIR$/app/models/weight.rb" />
       </list>
     </option>
   </component>
@@ -779,13 +777,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/controllers/pages_controller_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="0" selection-start="1212" selection-end="1212" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/models/weight_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="24" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0">
@@ -793,23 +784,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/weight.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/pages/results.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="19" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0">
+        <state line="6" column="17" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pages/results.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/models/weight.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="24" selection-start="1224" selection-end="1224" vertical-scroll-proportion="0.0">
+        <state line="29" column="17" selection-start="560" selection-end="560" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/pages_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="31" selection-start="499" selection-end="499" vertical-scroll-proportion="0.390625">
+        <state line="14" column="4" selection-start="535" selection-end="535" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/controllers/pages_controller_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="0" selection-start="1212" selection-end="1212" vertical-scroll-proportion="1.25">
           <folding />
         </state>
       </provider>
