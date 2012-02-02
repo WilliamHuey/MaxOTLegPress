@@ -1,3 +1,45 @@
 <h1>MaxOT Leg Press</h1>
 <%= link_to 'Back to Home', root_path %>
 <h2>Weight: <%= @weight %></h2>
+<table border="1">
+  <tr>
+    <th>Warmup Weights (Full)</th>
+    <th>45lb</th>
+    <th>35lb</th>
+    <th>25lb</th>
+    <th>10lb</th>
+    <th>5lb</th>
+  </tr>
+  <tr>
+    <th><%= @weight1 %></th>
+    <td><%= @num_plates1[:num45] %></td>
+    <td><%= @num_plates1[:num35] %></td>
+    <td><%= @num_plates1[:num25] %></td>
+    <td><%= @num_plates1[:num10] %></td>
+    <td><%= @num_plates1[:num5] %></td>
+  </tr>
+  <tr>
+    <th><%= @weight2 %></th>
+    <td><%= @num_plates2[:num45] %></td>
+    <td><%= @num_plates2[:num35] %></td>
+    <td><%= @num_plates2[:num25] %></td>
+    <td><%= @num_plates2[:num10] %></td>
+    <td><%= @num_plates2[:num5] %></td>
+  </tr>
+  <tr>
+    <th><%= @weight3 %></th>
+    <td><%= @num_plates3[:num45] %></td>
+    <td><%= @num_plates3[:num35] %></td>
+    <td><%= @num_plates3[:num25] %></td>
+    <td><%= @num_plates3[:num10] %></td>
+    <td><%= @num_plates3[:num5] %></td>
+  </tr>
+  <tr>
+    <th><%= @weight4 %></th>
+    <td><%= @num_plates4[:num45] %></td>
+    <td><%= @num_plates4[:num35] %></td>
+    <td><%= @num_plates4[:num25] %></td>
+    <td><%= @num_plates4[:num10] %></td>
+    <td><%= @num_plates4[:num5] %></td>
+  </tr>
+</table>

@@ -31,33 +31,6 @@ describe PagesController do
       assigns(:weight4).should == 570
     end
 
-    it "should calculate number of plates on one side for 570" do
-      post 'results', :weight => 570
-      assigns(:first_warmup_45_plate_count).should == 1
-      assigns(:first_warmup_35_plate_count).should == 0
-      assigns(:first_warmup_25_plate_count).should == 1
-      assigns(:first_warmup_10_plate_count).should == 0
-      assigns(:first_warmup_5_plate_count).should == 0
-
-      assigns(:second_warmup_45_plate_count).should == 3
-      assigns(:second_warmup_35_plate_count).should == 0
-      assigns(:second_warmup_25_plate_count).should == 0
-      assigns(:second_warmup_10_plate_count).should == 0
-      assigns(:second_warmup_5_plate_count).should == 1
-
-      assigns(:third_warmup_45_plate_count).should == 4
-      assigns(:third_warmup_35_plate_count).should == 0
-      assigns(:third_warmup_25_plate_count).should == 1
-      assigns(:third_warmup_10_plate_count).should == 0
-      assigns(:third_warmup_5_plate_count).should == 1
-
-      assigns(:fourth_warmup_45_plate_count).should == 6
-      assigns(:fourth_warmup_35_plate_count).should == 0
-      assigns(:fourth_warmup_25_plate_count).should == 0
-      assigns(:fourth_warmup_10_plate_count).should == 1
-      assigns(:fourth_warmup_5_plate_count).should == 1
-    end
-
     it "display weight 590 and its 4 incremental weights" do
       post 'results', :weight => 590
       assigns(:weight).should == 590
@@ -74,31 +47,5 @@ describe PagesController do
       assigns(:weight4).should == 590
     end
 
-    it "should calculate number of plates on one side for 590" do
-      post 'results', :weight => 590
-      assigns(:first_warmup_45_plate_count).should == 1
-      assigns(:first_warmup_35_plate_count).should == 0
-      assigns(:first_warmup_25_plate_count).should == 1
-      assigns(:first_warmup_10_plate_count).should == 0
-      assigns(:first_warmup_5_plate_count).should == 0
-
-      assigns(:second_warmup_45_plate_count).should == 3
-      assigns(:second_warmup_35_plate_count).should == 0
-      assigns(:second_warmup_25_plate_count).should == 0
-      assigns(:second_warmup_10_plate_count).should == 1
-      assigns(:second_warmup_5_plate_count).should == 0
-
-      assigns(:third_warmup_45_plate_count).should == 4
-      assigns(:third_warmup_35_plate_count).should == 1
-      assigns(:third_warmup_25_plate_count).should == 0
-      assigns(:third_warmup_10_plate_count).should == 0
-      assigns(:third_warmup_5_plate_count).should == 1
-
-      assigns(:fourth_warmup_45_plate_count).should == 6
-      assigns(:fourth_warmup_35_plate_count).should == 0
-      assigns(:fourth_warmup_25_plate_count).should == 1
-      assigns(:fourth_warmup_10_plate_count).should == 0
-      assigns(:fourth_warmup_5_plate_count).should == 0
-    end
   end
 end
